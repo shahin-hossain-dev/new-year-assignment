@@ -17,3 +17,33 @@ body {
     width: 82%;
     margin: 0 auto;
 }
+
+/* banner style */
+.banner {
+    background-image: linear-gradient(black, rgba(0, 0, 0, 0)), url('../assets/banner-image.png');
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+}
+
+.banner-info {
+    border-radius: 16px;
+    text-align: center;
+    padding: 145px 282px;
+}
+
+.banner-min-title {
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 26px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.banner-title {
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 59px;
+    color: #FFFFFF;
+    line-height: 77px;
+}
