@@ -1,8 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Merriweather:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Merriweather:wght@400;700&display=swap');
 
 * {
     margin: 0;
     padding: 0;
+}
+
+.secondary-text {
+    color: #070211;
 }
 
 /* common shared styles */
@@ -18,7 +22,7 @@ body {
     margin: 0 auto;
 }
 
-/* banner style */
+/* banner section style */
 .banner {
     background-image: linear-gradient(black, rgba(0, 0, 0, 0)), url('../assets/banner-image.png');
     background-size: 100%, 100%;
@@ -46,4 +50,40 @@ body {
     font-size: 59px;
     color: #FFFFFF;
     line-height: 77px;
+}
+
+/* discount section style */
+.discount {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.discount-info {
+    margin-top: 146px;
+    margin-bottom: 39px;
+    text-align: center;
+}
+
+.discount-title {
+    font-size: 72px;
+    font-weight: 700;
+    color: #D68910;
+    margin-bottom: 39px;
+}
+
+.discount-description {
+    font-size: 24px;
+    font-weight: 500px;
+    color: #D68910;
+    margin-bottom: 16px;
+}
+
+.discount-category {
+    font-size: 39px;
+    font-weight: 700;
+}
+
+.discount-img {
+    width: 657px;
 }
