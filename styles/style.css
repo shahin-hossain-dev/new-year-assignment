@@ -5,9 +5,6 @@
     padding: 0;
 }
 
-.secondary-text {
-    color: #070211;
-}
 
 /* common shared styles */
 
@@ -20,6 +17,10 @@ body {
     max-width: 1320px;
     width: 82%;
     margin: 0 auto;
+}
+
+.secondary-text {
+    color: #070211;
 }
 
 /* banner section style */
@@ -88,7 +89,6 @@ body {
 .discount-img {
     width: 657px;
 }
-
 
 
 /* party section style */
@@ -220,12 +220,11 @@ body {
     text-align: center;
 }
 
-
-
 .holiday-title {
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 16px;
+    /* color: #D68910; */
 }
 
 .holiday-sale {
@@ -246,15 +245,6 @@ body {
     overflow: hidden;
 }
 
-
-
-.holiday-gift-box {
-    width: 40%;
-    position: absolute;
-    left: 90px;
-    bottom: 180px;
-}
-
 .holiday-person {
     width: 30%;
     position: absolute;
@@ -267,7 +257,7 @@ body {
     width: 20%;
     position: absolute;
     right: 220px;
-    top: 50px;
+    top: 55px;
 }
 
 .holiday-bottom-bar {
@@ -275,8 +265,15 @@ body {
     position: absolute;
     bottom: 0;
     left: 0;
-
 }
+
+.holiday-gift-box {
+    width: 60%;
+    position: absolute;
+    left: 50px;
+    bottom: 0px;
+}
+
 
 /* portfolio section style */
 .portfolio-container {
