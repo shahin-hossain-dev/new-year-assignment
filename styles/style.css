@@ -413,6 +413,16 @@ hr {
     font-size: 20px;
 }
 
-.fa-solid {
+.address-phone::before {
+    content: '\f095';
+    font-family: 'Font Awesome 6 Free';
     margin-right: 10px;
+    font-weight: 700;
+}
+
+.address-website::before {
+    content: '\f0ac';
+    font-family: 'Font Awesome 6 Free';
+    margin-right: 10px;
+    font-weight: 700;
 }
