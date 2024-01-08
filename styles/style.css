@@ -216,8 +216,16 @@ body {
 
 .portfolio-demo img {
     width: 100%;
-
+    height: 100%;
+    transition: 200ms;
+    opacity: 90%;
 }
+
+.portfolio-demo img:hover {
+    transform: scale(1.1);
+    opacity: 100%;
+}
+
 
 /* subscribe section style */
 .subscribe-container {
