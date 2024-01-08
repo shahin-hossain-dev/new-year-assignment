@@ -125,6 +125,60 @@ body {
     line-height: 30px
 }
 
+/* best offer section */
+.best-offer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 85px;
+    margin-top: 120px;
+}
+
+.best-offer-info {
+    width: 100%;
+}
+
+.best-offer-info h2 {
+    font-family: Merriweather;
+    font-size: 39px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+
+.best-offer-title {
+    font-size: 24px;
+    color: #D68910;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.best-offer-img {
+    width: 300px;
+    padding: 35px;
+    border: 15px solid #D68910;
+    border-radius: 100%;
+
+}
+
+.best-offer-description {
+    color: rgba(7, 2, 17, 0.60);
+}
+
+.best-offer-soon {
+    width: 100%;
+}
+
+.best-offer-soon h2 {
+    font-size: 39px;
+    color: #D68910;
+    margin-bottom: 16px;
+}
+
+.best-offer-soon p {
+    color: rgba(7, 2, 17, 0.60);
+    margin-bottom: 22px;
+}
+
 /* portfolio section style */
 .portfolio-container {
     margin-top: 120px;
