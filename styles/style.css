@@ -419,6 +419,11 @@ hr {
     font-weight: 700;
 }
 
+.address-website a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
 .address-website::before {
     content: '\f0ac';
     font-family: 'Font Awesome 6 Free';
